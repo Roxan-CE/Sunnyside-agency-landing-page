@@ -2,6 +2,8 @@ body {
  margin: 0;
  font-family: 'Barlow', sans-serif;
  font-size: 18px;
+ max-width: 100vw;
+ color: 	#8e8c97;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h2 {
 font-family: 'Fraunces', sans-serif;
 font-weight: 700;
 font-size: 2.5rem;
+color: #000;
 }
 
 h3 {
@@ -61,8 +64,15 @@ ul li {
   float: left;
 }
 
-/* TRANSFORM SECTION */
 
+
+.box-sections {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* TRANSFORM SECTION */
 
 .transform {
   width: 50%;
@@ -70,14 +80,18 @@ ul li {
 }
 
 .transform div {
-  padding: 20%;
+  margin: 0 auto;
+  padding: 18%;
 }
 
 
 .transform-img {
-  float: right;
   width: 50%;
   height: 600px;
+  background-image: url(/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffd101;
 }
 
 
@@ -86,17 +100,25 @@ ul li {
 .standout {
   width: 50%;
   height: 600px;
-  float: right;
 }
 
 .standout div {
-  padding: 20%;
+  margin: 0 auto;
+  padding: 18%;
 }
 
 .standout-img {
-  float: left;
-  height:600px;
   width: 50%;
+  height: 600px;
+  background-image: url(/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ff7362;
+}
+
+.standout-img img {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -105,59 +127,80 @@ ul li {
 .graphic-design {
   width: 50%;
   height: 600px;
-  float: left;
   background-image: url(/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-color: #98dbcc;
 }
 
 .graphic-design div {
-  padding: 20%;
   color: #25564b;
   text-align: center;
   position: relative;
-  top: 230px;
+  top: 35%;
+  padding: 23%;
 }
 
 .photography {
   width: 50%;
   height: 600px;
-  float: right;
   background-image: url(/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #5ccaff;
 }
 
 .photography div {
-  padding: 25%;
   color: 	#19536b;
   text-align: center;
   position: relative;
-  top: 190px;
+  top: 35%;
+  padding: 23%;
 }
 
-.testimonials {
-  width: 100%;
-}
+/* TESTIMONIALS SECTION */
 
-.testimonial-content {
-  margin: 0 auto;
+.testimonials-section {
   text-align: center;
   padding: 10%;
+}
 
+.testimonial-container {
+  display: flex;
 }
 
 .testimonial {
-  display: inline-block;
-  height: 100%;
-  width: 30%;
+  text-align: center;
+  flex: 1 1 0;
+  padding: 0 1%;
 }
 
 .testimonial img {
   border-radius: 100px;
-  width: 25%;
+  width: 20%;
+  margin: 15% 0 10%;
 }
+
+.signature {
+  padding: 10%;
+}
+
+/* GALLERY SECTION */
+
+
+.gallery-section {
+
+}
+.gallery-container {
+  display: flex;
+
+}
+.gallery-container img {
+  width: 25%;
+
+}
+
+/* FOOTER SECTION */
 
 .footer {
   text-align: center;
