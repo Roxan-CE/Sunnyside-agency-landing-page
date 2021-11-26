@@ -4,16 +4,16 @@ body {
   font-weight: 600;
   font-size: 18px;
   max-width: 100vw;
-  color: #8e8c97;
+  color: 	#818498;
 }
 
 h1 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
-  margin: 100px 0;
+  margin: 4% 0;
 }
 
 h2 {
@@ -21,13 +21,13 @@ h2 {
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
-  color: #000;
+  color: #23303e;
 }
 
 h3 {
   font-family: 'Fraunces', sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-weight: 900;
+  font-size: 1.7rem;
 }
 
 h4 {
@@ -43,7 +43,52 @@ p {
   line-height: 1.5;
 }
 
+/* MENU */
+
+.logo {
+  margin: 0 3%;
+  padding: 3.5% 0;
+  float: left;
+}
+
+.logo img {
+  width: 130%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1.5%;
+  font-weight: 500;
+}
+
+.menu {
+  text-align: right;
+  padding: 2%;
+}
+
+.menu-btn {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #23303e;
+  border: none;
+  text-transform: uppercase;
+  margin: 0 2%;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  background: #FFFFFF;
+  padding: 1.2% 2%;
+}
+
 /* HEADING */
+
 .heading {
   color: #FFF;
   text-align: center;
@@ -55,27 +100,11 @@ p {
   background-position: center;
 }
 
-/* MENU */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.arrow-down {
+  margin-top: 4.5%;
 }
 
-ul li {
-  display: inline;
-  padding: 0 10px;
-}
-
-.menu {
-  text-align: right;
-  padding: 30px;
-}
-
-.logo {
-  margin: 0 15px;
-  float: left;
-}
+/* TRANSFORM SECTION */
 
 .box-sections {
   width: 100%;
@@ -84,8 +113,6 @@ ul li {
 }
 
 
-
-/* TRANSFORM SECTION */
 .transform {
   width: 50%;
   height: 600px;
@@ -142,8 +169,13 @@ ul li {
   font-family: 'Fraunces', sans-serif;
   font-weight: 900;
   font-size: 1rem;
-  color: #000;
+  color: 	#23303e;
   text-decoration: none;
+
+}
+
+.standout.learn-more {
+
 }
 
 /* GRAPHIC DESIGN AND PHOTOGRAPY SECTION*/
@@ -157,11 +189,15 @@ ul li {
 }
 
 .graphic-design div {
-  color: #25564b;
+  color: #22594e;
   text-align: center;
   position: relative;
-  top: 35%;
+  top: 33%;
   padding: 23%;
+}
+
+.graphic-design p {
+  color: #3f7a6e;
 }
 
 .photography {
@@ -177,7 +213,7 @@ ul li {
   color: #19536b;
   text-align: center;
   position: relative;
-  top: 35%;
+  top: 33%;
   padding: 23%;
 }
 
@@ -204,7 +240,8 @@ ul li {
 }
 
 .testimonial p {
-  color:	#5a636c;
+  color: #616a75;
+  line-height: 1.8;
 }
 
 .signature {
@@ -212,7 +249,7 @@ ul li {
 }
 
 .signature h3 {
-  color: #000;
+  color: 	#23303e;
   font-size: 1.2rem;
   padding-top: 2%;
   margin-bottom: 0;
@@ -258,7 +295,7 @@ ul li {
 }
 
 .social-media {
-  padding: 5%;
+  padding: 6%;
 }
 
 .social-media  a {
