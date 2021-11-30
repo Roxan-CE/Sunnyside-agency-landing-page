@@ -118,8 +118,8 @@ ul li {
   background-color: #3dbeff;
   background-repeat: no-repeat;
   background-image: url("/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
-  background-size: 1440px;
-  background-position: center;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .arrow-down {
@@ -180,7 +180,7 @@ ul li {
 .learn-border {
   border-bottom: solid 10px;
   border-radius: 28px;
-  width: 30%;
+  width: 7rem;
   position: relative;
   top: 1.3rem;
   right: 0.2rem;
@@ -210,7 +210,6 @@ border-bottom-color: #fe7867;
   background-position: center;
   background-color: #98dbcc;
   color: #22594e;
-  display: inline-block;
 }
 
 .bottom-container {
@@ -350,33 +349,121 @@ svg:hover {
   width: 1.37%;
 }
 
-/*** MOBILE SCREENS ****/
 
 
-@media only screen and (max-width: 375px) {
+/*** MEDIA  QUERIES ****/
+
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+      margin: 8% 0;
+  }
+
+  .transform-content {
+    text-align: center;
+    padding: 25% 12% 18% 10% ;
+  }
+
+
+  .standout-content {
+    padding: 18% 10%;
+    text-align: center;
+  }
+
+  .learn-border {
+    width: 7rem;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+    padding: 8% 0 2%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .logo {
+    padding: 4.3% 2%;
+  }
+
+.bottom-container {
+  padding: 0;
+  top: 55%;
+}
+
+.testimonials-section {
+  padding: 5% 2%;
+}
+
+/* GALLERY SECTION*/
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-container img {
+  width: 25%;
+  height: auto;
+}
+
+.footer-logo {
+  padding: 15% 0 5%;
+  margin: 0 auto;
+}
+
+.footer-logo img {
+  width: 20%;
+}
+
+.footer ul {
+  padding: 1.3% 0 0;
+
+}
+
+.footer li {
+  padding: 0 4%;
+}
+
+.social-media  a {
+  padding: 0 1.5%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
 
   h1 {
-    font-size: 2rem;
-    padding: 15% 2%;
+    font-size: 1.8rem;
+    padding: 8% 3% 2%;
   }
 
   h2 {
     font-size: 1.8rem;
   }
 
+  h4 {
+    padding: 5% 0;
+  }
+
   /* HEADING */
 
   .heading {
-    background-color: #3dbeff;
-    background-repeat: no-repeat;
-    background-image: url("/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
-    background-size: 800px;
+    background-size: cover;
     background-position: center bottom;
     height: 600px;
   }
 
   .logo {
-    padding: 8% 4%;
+    padding: 5% 4%;
     float: left;
   }
 
@@ -388,19 +475,21 @@ svg:hover {
 
   .box-container {
     width: 100%;
-    height: auto;
+    height: 600px;
+    flex-direction: column;
   }
 
   /* TRANSFORM */
 
   .transform-img {
     order: 0;
-    height : 400px;
+    width: 600px;
+    height : 500px;
     background-size: cover;
   }
 
   .transform-content {
-    padding: 12% 8% 18%;
+    padding: 28% 8%;
     text-align: center;
   }
 
@@ -408,20 +497,12 @@ svg:hover {
     order: 1;
   }
 
-  .learn-border {
-    border-radius: 28px;
-    width: 44%;
-    position: relative;
-    opacity: 0.5;
-    z-index: 2;
-    left: 4.6rem;
-  }
-
 /* STANDOUT */
 
   .standout-img {
     order: 2;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     background-size: cover;
   }
 
@@ -430,10 +511,13 @@ svg:hover {
   }
 
   .standout-content {
-    padding: 12% 8% 18%;
+    padding: 25% 8%;
     text-align: center;
   }
 
+  .bottom-container {
+    top: 60%;
+  }
   .graphic-design {
     order: 4;
   }
@@ -441,6 +525,12 @@ svg:hover {
   .photography {
     order: 5;
   }
+
+  .learn-border {
+    width: 7rem;
+    margin: 0 auto;
+  }
+
 
 /* TESTIMONIALS */
 
@@ -461,7 +551,7 @@ svg:hover {
 
 .testimonial img {
   border-radius: 100px;
-  width: 30%;
+  width: 12%;
   margin: 0;
 }
 
@@ -474,46 +564,21 @@ svg:hover {
   margin-bottom: 0;
 }
 
-.signature-title {
-  padding-top: 0;
-  margin-top: 0;
 
+/* FOOTER SECTION */
+
+.footer-logo {
+  padding: 8% 5% 2%;
 }
 
-/* GRAPHIC DESIGN AND PHOTOGRAPHY */
-
-.graphic-design {
-  width: 100%;
-  height: 600px;
-  display: block;
+.footer-logo img {
+  width: 25%;
 }
 
-.bottom-container {
-
-  position: relative;
-  top: 60%;
-  padding: 0%;
+.social-media a {
+  padding: 5% 2%;
 }
 
-.graphic-design p {
-  opacity: 1;
-  padding: 0 6%;
-}
-
-.photography {
-  width: 100%;
-  height: 600px;
-  display: block;
-}
-
-.photography p {
-  padding: 0 6%;
-  opacity: 1;
-}
-
-
-
-/* GALLERY SECTION*/
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
@@ -521,41 +586,159 @@ svg:hover {
 
 .gallery-container img {
   width: 50%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
 }
-
-/* FOOTER SECTION */
-
-.footer-logo {
-  padding: 15% 0 5%;
-  margin: 0 auto;
-}
-
-.footer-logo img {
-  width: 50%;
-}
-
-.footer ul {
-  padding: 0;
 
 }
 
-.footer li {
-  padding: 0 6%;
-}
+@media only screen and (max-width: 480px) {
+
+  h1 {
+    font-size: 2.2rem;
+    padding: 5% 2%;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .heading {
+    background-size: 900px;
+    background-position: center bottom;
+  }
+
+  #transform {
+    height: 400px;
+  }
+
+  #standout {
+    height: 400px;
+  }
+
+
+  .transform-img {
+    background-size: contain;
+    height: 400px;
+  }
+
+  .standout-img {
+    height: 400px;
+    background-size: contain;
+  }
+
+  .transform-content {
+    padding: 10% 8%;
+  }
+
+  .standout-content {
+    padding: 6% 8%;
+  }
+
+  .testimonial img {
+    border-radius: 100px;
+    width: 20%;
+    margin: 0;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery-container img {
+    width: 50%;
+    height: 190px;
+    object-fit: cover;
+  }
+
+  .footer-logo img {
+    width: 40%;
+  }
+
+  .footer-logo {
+    padding: 15% 5% 3%;
+  }
+
+  .footer li {
+    padding: 0 8%;
+  }
 
 .social-media {
-  padding: 15% 5%;
+  padding: 12% 0;
 }
 
-.social-media img {
-  width: 1.37%;
-}
-
-.social-media  a {
-  padding: 3%;
-}
+  .social-media a {
+    padding: 5% 3%;
+  }
 
 }
+
+
+@media only screen and (max-width: 375px) {
+
+  h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    padding: 8% 2%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 0.85rem;
+    padding: 2% 0;
+  }
+
+  /* HEADING */
+
+  .heading {
+    background-color: #3dbeff;
+    background-repeat: no-repeat;
+    background-image: url("/Users/roxan/Desktop/Web_Development/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+    background-size: 750px;
+    background-position: center bottom;
+    height: 540px;
+  }
+
+  .logo {
+    padding: 8% 4%;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .footer-logo img {
+    width: 50%;
+  }
+
+  .transform-img {
+    background-size: contain;
+    height: 300px;
+  }
+
+  .standout-img {
+    height: 300px;
+    background-size: contain;
+  }
+
+  #transform {
+    height: 440px;
+  }
+
+  #standout {
+    height: 440px;
+  }
+
+  .standout-content {
+    padding: 8%;
+  }
+
+  .bottom-container {
+    top: 60%;
+  }
 
 }
