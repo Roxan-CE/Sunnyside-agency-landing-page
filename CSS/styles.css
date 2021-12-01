@@ -223,7 +223,7 @@ border-bottom-color: #fe7867;
   text-align: center;
   position: relative;
   top: 34%;
-  padding: 23%;
+  padding: 23% 23% 0;
 }
 
 .graphic-design p {
