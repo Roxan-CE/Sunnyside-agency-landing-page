@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop - Screenshot](design/Desktop - complete version.png)
-![Mobile - Screenshot](design/Mobile - complete version.png)
+- Desktop Screenshot: (https://github.com/Roxan-CE/Sunnyside-agency-landing-page/blob/main/design/Desktop%20-%20complete%20version.png)
+- Mobile Screenshot: (https://github.com/Roxan-CE/Sunnyside-agency-landing-page/blob/main/design/Mobile%20-%20complete%20version.png)
 
 ### Links
 
@@ -64,7 +64,7 @@ This project was a great practice for HTML and CSS.
   - Learned a few small tricks using the underline and the dropdown menu.
 
 
-### Continued development / Improvements
+### Continued development
 
 - Next time, I would like to write mobile-first CSS. For this project, I started working on the desktop site first.
 It was only once I got to the media queries and breakpoints that I realized my mistake.
