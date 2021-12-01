@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop - Screenshot](./design/Desktop - complete version.png)
-![Mobile - Screenshot](./design/Mobile - complete version.png)
+![Desktop - Screenshot](Desktop - complete version.png)
+![Mobile - Screenshot](Mobile - complete version.png)
 
 ### Links
 
